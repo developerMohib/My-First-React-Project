@@ -1,5 +1,5 @@
 
-import React from 'react';
+// import React from 'react';
 import './sunglass.css';
 import '../watch/watch'
 import { add, multiply } from '../../../utilitis/calculate';
@@ -14,6 +14,8 @@ const sunglass = () => {
 
     return (
         <div>
+            <p> sum : {sum} </p>
+            <p> mult : {mult} </p>
             <watch></watch>
             <h2>My connection</h2>
         </div>
