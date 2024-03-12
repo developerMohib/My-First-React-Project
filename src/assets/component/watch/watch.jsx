@@ -1,14 +1,18 @@
 
 import React from 'react';
 
-const watch = (  ) => {
-    // const {name, price} = watch;
+const watch = ( {watch} ) => {
+    const {name, price, color, id} = watch;
+    console.log('name ', name)
     return (
         <div>
-        {/* <h2> watch : {name} </h2>
-        <p> watch : {price} </p> */}
-        <h2>watches : </h2>
+        <h2>Name : {name} </h2>
+        <p>Id : {id} </p>
+        <p>Price : {price} </p>
+        <p>Color : {color} </p>
+        
         </div>
+        
     );
 };
 

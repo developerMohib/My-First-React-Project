@@ -16,7 +16,6 @@ const sunglass = () => {
         <div>
             <p> sum : {sum} </p>
             <p> mult : {mult} </p>
-            <watch></watch>
             <h2>My connection</h2>
         </div>
     );
